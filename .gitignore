@@ -1,0 +1,15 @@
+# Arquivos de Segurança e Banco de Dados (NUNCA SUBIR)
+secret.key
+emails_auto.db
+*.db
+
+# Lixo do Python (Cache)
+__pycache__/
+*.pyc
+
+# Arquivos de Log de erro (se tiver sobrado algum)
+*.txt
+*.log
+
+# Arquivos de configuração do VS Code (opcional)
+.vscode/
