@@ -1,15 +1,23 @@
-# Arquivos de Segurança e Banco de Dados (NUNCA SUBIR)
-secret.key
-emails_auto.db
+# --- SEGURANÇA (CRÍTICO) ---
+# Ignora qualquer chave de criptografia (secret.key, chave_mestra.key, etc)
+*.key
+
+# Ignora qualquer banco de dados (emails_auto.db, emails_central.db, etc)
 *.db
 
-# Lixo do Python (Cache)
+# --- SIMULAÇÃO E SERVIDOR ---
+# Ignora a pasta que criamos para simular o servidor
+SERVER_FAKE/
+SIMULACAO_SERVIDOR/
+
+# --- LIXO DO PYTHON E BUILD ---
+# Ignora arquivos compilados e pastas de build do PyInstaller
 __pycache__/
 *.pyc
+build/
+dist/
+*.spec
 
-# Arquivos de Log de erro (se tiver sobrado algum)
-*.txt
+# --- OUTROS ---
 *.log
-
-# Arquivos de configuração do VS Code (opcional)
 .vscode/
