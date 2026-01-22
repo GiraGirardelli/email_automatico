@@ -15,8 +15,8 @@ LOCAL_KEY = "secret.key"
 # Tenta achar a pasta SERVER_FAKE (simulação) ou usa S:\Automacao_Email (real)
 if os.path.exists("SERVER_FAKE"):
     PASTA_SERV = "SERVER_FAKE"
-elif os.path.exists(r"S:\Automacao_Email"):
-    PASTA_SERV = r"S:\Automacao_Email"
+##elif os.path.exists(r"S:\Automacao_Email"):
+##    PASTA_SERV = r"S:\Automacao_Email"
 else:
     PASTA_SERV = None 
 
