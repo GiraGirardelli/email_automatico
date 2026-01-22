@@ -1,4 +1,4 @@
-# 📧 Super Agendador de E-mails (V9.0)
+# 📧 Agendador de E-mails 
 
 Um sistema completo e seguro de automação de e-mails desenvolvido em Python. Permite agendar envios únicos, diários, semanais, mensais ou anuais, com suporte a anexos, importação em massa via Excel e criptografia de senhas.
 
